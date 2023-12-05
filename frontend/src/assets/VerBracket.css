@@ -1,0 +1,56 @@
+.bracket-container {
+  display: flex;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.round-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.match {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+}
+
+.team {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.vs {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+.winner {
+  background-color: #4CAF50;  /* Color verde o el que desees para el ganador */
+  color: #fff;  /* Color de texto para destacar sobre el fondo verde */
+  font-weight: bold;  /* Puedes ajustar otros estilos según sea necesario */
+}
+/* Agrega cualquier otro estilo según tus preferencias */
+.champion {
+  border: 2px solid #00ff00; /* Borde verde para el campeón */
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.champion.winner {
+  background-color: #aaffaa; /* Fondo verde para el campeón ganador */
+}
